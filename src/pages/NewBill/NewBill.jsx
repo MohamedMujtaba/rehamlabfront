@@ -59,7 +59,7 @@ const NewBill = () => {
   const handeleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/bills", {
+      await axios.post("https://reham-api-v1.herokuapp.com/api/v1/bills", {
         user: user,
         tests: bill,
         insurance,
