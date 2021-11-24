@@ -30,7 +30,7 @@ const NewResult = () => {
 
   const getBill = async () => {
     try {
-      const res = await fetch(`http://localhost:8000/api/v1/results/${id}`);
+      const res = await fetch(`https://reham-api-v1.herokuapp.com/api/v1/results/${id}`);
       const data = await res.json();
       setTests(data.tests);
       console.log(tests);
