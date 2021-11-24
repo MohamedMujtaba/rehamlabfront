@@ -27,7 +27,7 @@ const NewResult = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/results', {
+      await axios.post('https://reham-api-v1.herokuapp.com/api/v1/results', {
         user,
         tests
       });
