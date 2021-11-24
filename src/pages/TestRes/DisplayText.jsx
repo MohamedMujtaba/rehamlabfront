@@ -23,6 +23,7 @@ const Span = styled.span`
   align-items:  center;
   justify-content: flex-start;
   border-top: solid 1px #f2f2f2;
+  padding:5px;
   &:last-child{
     border-left: solid 1px #f2f2f2;
     border-right: solid 1px #f2f2f2;
