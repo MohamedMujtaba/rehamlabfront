@@ -17,7 +17,7 @@ const NewResult = () => {
   const [user, setUser] = useState({});
   const resetBill = async () => {
     try {
-      await axios.put(`https://reham-api-v1.herokuapp.com/bills/${bill._id}`, {
+      await axios.put(`https://reham-api-v1.herokuapp.com/api/v1/bills/${bill._id}`, {
         done: true
       });
     } catch (err) {
