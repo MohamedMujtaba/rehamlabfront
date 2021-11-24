@@ -60,9 +60,6 @@ function App() {
             <NewResult />
           </Route>
         </div>
-        {/* <Route path="*">
-          <h1>sorry</h1>
-        </Route> */}
       </Switch>
     </Router>
   );
